@@ -9,5 +9,5 @@ jobs:
   container: maven:3.8.1-openjdk-17-slim
   steps:
   - script: |
-      mvn verify package sonar:sonar -Dsonar.host.url=https://sonarcloud.io/ -Dsonar.organization=glsdevopsorg -Dsonar.projectKey=glsdevopsorgkey -Dsonar.token=565eccc2b162a2a6f75deb0f7d41c57e8966dc9c
+      mvn verify package sonar:sonar -Dsonar.host.url=https://sonarcloud.io/ -Dsonar.organization=glsdevops1 -Dsonar.projectKey=glsdevops1key -Dsonar.token=4a2b9e2091f18d9f9b02d9164c0d81d68baf2071
     displayName: "Integrate SAST using SonarCloud to populate code coverage and secure pipeline variable in Azure DevOps DevSecOps Pipeline"
